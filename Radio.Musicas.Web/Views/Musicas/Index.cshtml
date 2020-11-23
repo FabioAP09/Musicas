@@ -1,0 +1,106 @@
+﻿@model IEnumerable<Radio.Musicas.Web.ViewModel.Musica.MusicaIndexViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div class="row">
+    <div class="col-md-10">
+        <input type="text" id=" pesquisaAlbum" class="form-control"/>
+    </div>
+    <div class="col-md-2">
+        <button id="btnPesquisarMusica">Pesquisar</button>
+    </div>
+</div>
+<table class="table" id="tblMusicas">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Titulo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Artista)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Album)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ano)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Titulo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Artista)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Album)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ano)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+
+</table>
+@section Scripts{
+    <script>
+        $document.ready(function()){
+            $("#btnPesquisarAlbum").click(function () {
+                var termoPesquisa = $("#btnPesquisarAlbum").val();
+                $.ajax({
+                    method: "GET",
+                    url: "/Musicas/FiltrarPorNome?pesquisa=" + termoPesquisa,
+                    success: function (data) {
+                        $("#tblMusicas tbody > tr").remove();
+                        $.each(data, function (i, musicas) {
+                            $("#tblMusicas tbody").append(
+                                "<tr>" + s
+                                "<td>" + musicas.Titulo + "</td>" +
+                                "<td>" + musicas.Artista + "</td>" +
+                                "<td>" + musicas.Album + "</td>" +
+                                "<td>" + musicas.Ano + "</td>" +
+                                "<td>" + musicas.Email + "</td>" +
+                                "<td>" +
+                                "<a href='/Musicas/Edit" + musicas.Id + "'>Editar</a>" +
+                                "<a href='/Musicas/Details" + musicas.Id + "'>Detalhar</a>" +
+                                "<a href='/Musicas/Delete" + musicas.Id + "'>Excluir)</a>" +
+                                "</td>"+
+                                " </tr>"
+                            );
+                        });
+                    },
+                    error: function (data) {
+                        alert("Houve um erro na pesquisa")
+                    }
+
+                });
+            });
+        });
+    </script>
+    }

@@ -1,0 +1,34 @@
+﻿@model Radio.Musicas.Web.ViewModel.Turne.TurneIndexViewModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Turne</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.IdMusica)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IdMusica)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeTurne)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeTurne)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.IdTurne }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

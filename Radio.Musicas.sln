@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30330.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Web", "Radio.Musicas.Web\Radio.Musicas.Web.csproj", "{FEE20A62-2626-4034-B628-314A807A6A05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{50B01AE2-1900-42DD-BD6A-4694D76656DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Dominio", "Radio.Musicas.Dominio\Radio.Musicas.Dominio.csproj", "{E9794570-C613-4082-8135-A80E0D4A0D33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dados", "Dados", "{F0A43B86-B0D3-4D49-9BB2-39219AA06C7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Dados.Entity", "Radio.Musicas.Dados.Entity\Radio.Musicas.Dados.Entity.csproj", "{1920BBD2-8C5A-4BD6-8058-769A0533B770}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D910716A-9411-4A76-80D2-DF46F0C6C2C9}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Generica.Entity", "Radio.Musicas.Generica.Entity\Radio.Musicas.Generica.Entity.csproj", "{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorios", "Repositorios", "{78EAC2F2-820D-4ECB-B84A-60E0C3FE20AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Repositorios.Comum", "Radio.Musicas.Repositorios.Comum\Radio.Musicas.Repositorios.Comum.csproj", "{43EB2162-2CF9-45CF-8561-099F39D8BD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Comum.Entity", "Radio.Musicas.Comum.Entity\Radio.Musicas.Comum.Entity.csproj", "{E0451815-521F-4052-A8C8-2EFD19C64DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Radio.Musicas.Repositorios.Entity", "Radio.Musicas.Repositorios.Entity\Radio.Musicas.Repositorios.Entity.csproj", "{DC96B824-C508-493D-9C14-BA91191A85CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEE20A62-2626-4034-B628-314A807A6A05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEE20A62-2626-4034-B628-314A807A6A05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE20A62-2626-4034-B628-314A807A6A05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEE20A62-2626-4034-B628-314A807A6A05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9794570-C613-4082-8135-A80E0D4A0D33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9794570-C613-4082-8135-A80E0D4A0D33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9794570-C613-4082-8135-A80E0D4A0D33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9794570-C613-4082-8135-A80E0D4A0D33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1920BBD2-8C5A-4BD6-8058-769A0533B770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1920BBD2-8C5A-4BD6-8058-769A0533B770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1920BBD2-8C5A-4BD6-8058-769A0533B770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1920BBD2-8C5A-4BD6-8058-769A0533B770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EB2162-2CF9-45CF-8561-099F39D8BD01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EB2162-2CF9-45CF-8561-099F39D8BD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EB2162-2CF9-45CF-8561-099F39D8BD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EB2162-2CF9-45CF-8561-099F39D8BD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0451815-521F-4052-A8C8-2EFD19C64DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0451815-521F-4052-A8C8-2EFD19C64DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0451815-521F-4052-A8C8-2EFD19C64DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0451815-521F-4052-A8C8-2EFD19C64DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC96B824-C508-493D-9C14-BA91191A85CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC96B824-C508-493D-9C14-BA91191A85CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC96B824-C508-493D-9C14-BA91191A85CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC96B824-C508-493D-9C14-BA91191A85CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9794570-C613-4082-8135-A80E0D4A0D33} = {50B01AE2-1900-42DD-BD6A-4694D76656DD}
+		{1920BBD2-8C5A-4BD6-8058-769A0533B770} = {50B01AE2-1900-42DD-BD6A-4694D76656DD}
+		{E47C09D0-A285-4BDB-81DA-0E947CB6CF8E} = {F0A43B86-B0D3-4D49-9BB2-39219AA06C7E}
+		{43EB2162-2CF9-45CF-8561-099F39D8BD01} = {78EAC2F2-820D-4ECB-B84A-60E0C3FE20AA}
+		{E0451815-521F-4052-A8C8-2EFD19C64DFF} = {78EAC2F2-820D-4ECB-B84A-60E0C3FE20AA}
+		{DC96B824-C508-493D-9C14-BA91191A85CA} = {78EAC2F2-820D-4ECB-B84A-60E0C3FE20AA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {839CE699-047A-49B1-AF3E-93D786418582}
+	EndGlobalSection
+EndGlobal

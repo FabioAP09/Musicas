@@ -1,0 +1,14 @@
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\Radio.Musicas.Comum.Entity.dll.config
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\Radio.Musicas.Comum.Entity.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\Radio.Musicas.Comum.Entity.pdb
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\EntityFramework.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\Radio.Musicas.Repositorios.Comum.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\Radio.Musicas.Repositorios.Comum.pdb
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\EntityFramework.xml
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\obj\Debug\Radio.Musicas.Comum.Entity.csprojAssemblyReference.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\obj\Debug\Radio.Musicas.Comum.Entity.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\obj\Debug\Radio.Musicas.Comum.Entity.csproj.CopyComplete
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\obj\Debug\Radio.Musicas.Comum.Entity.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Comum.Entity\obj\Debug\Radio.Musicas.Comum.Entity.pdb

@@ -1,0 +1,6 @@
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\bin\Debug\Radio.Musicas.Repositorios.Comum.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\bin\Debug\Radio.Musicas.Repositorios.Comum.pdb
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\obj\Debug\Radio.Musicas.Repositorios.Comum.csprojAssemblyReference.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\obj\Debug\Radio.Musicas.Repositorios.Comum.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\obj\Debug\Radio.Musicas.Repositorios.Comum.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Repositorios.Comum\obj\Debug\Radio.Musicas.Repositorios.Comum.pdb

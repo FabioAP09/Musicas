@@ -1,0 +1,12 @@
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\Radio.Musicas.Generica.Entity.dll.config
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\Radio.Musicas.Generica.Entity.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\Radio.Musicas.Generica.Entity.pdb
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\EntityFramework.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\EntityFramework.xml
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\obj\Debug\Radio.Musicas.Generica.Entity.csprojAssemblyReference.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\obj\Debug\Radio.Musicas.Generica.Entity.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\obj\Debug\Radio.Musicas.Generica.Entity.csproj.CopyComplete
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\obj\Debug\Radio.Musicas.Generica.Entity.dll
+C:\Users\fabio\source\repos\Radio.Musicas\Radio.Musicas.Generica.Entity\obj\Debug\Radio.Musicas.Generica.Entity.pdb
