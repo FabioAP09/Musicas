@@ -10,7 +10,7 @@ namespace Radio.Musicas.Dominio
     {
         public long IdTurne { get; set; }
         public string NomeTurne { get; set; }
-        public virtual Musica musica { get; set; }
+        public virtual Musica Musica { get; set; }
         public int IdMusica {get;set;}
     }
 }

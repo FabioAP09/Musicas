@@ -19,12 +19,12 @@ namespace Radio.Musicas.Repositorios.Entity
         }
         public override List<Turne> Selecionar()
         {
-            return _contexto.Set<Turne>().Include(p => p.musica).ToList();
+            return _contexto.Set<Turne>().Include(p => p.Musica).ToList();
 
         }
         public override Turne SelecionarPorId(long id)
         {
-            return _contexto.Set<Turne>().Include(p => p.musica).SingleOrDefault(f => f.IdTurne == id);
+            return _contexto.Set<Turne>().Include(p => p.Musica).SingleOrDefault(f => f.IdTurne == id);
         }
     }
 }

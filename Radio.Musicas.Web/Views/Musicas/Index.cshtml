@@ -70,17 +70,17 @@
 </table>
 @section Scripts{
     <script>
-        $document.ready(function()){
-            $("#btnPesquisarAlbum").click(function () {
-                var termoPesquisa = $("#btnPesquisarAlbum").val();
+        $(document).ready(function(){
+            $("#btnPesquisarMusica").click(function () {
+                var termoPesquisa = $("#pesquisaMusica").val();
                 $.ajax({
                     method: "GET",
-                    url: "/Musicas/FiltrarPorNome?pesquisa=" + termoPesquisa,
+                    url: "/Musicas/FiltrarPorNome/" + termoPesquisa,
                     success: function (data) {
                         $("#tblMusicas tbody > tr").remove();
                         $.each(data, function (i, musicas) {
                             $("#tblMusicas tbody").append(
-                                "<tr>" + s
+                                "<tr>" + 
                                 "<td>" + musicas.Titulo + "</td>" +
                                 "<td>" + musicas.Artista + "</td>" +
                                 "<td>" + musicas.Album + "</td>" +

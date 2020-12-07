@@ -26,7 +26,7 @@ namespace Radio.Musicas.Web.AutoMapper
                 .ForMember(p => p.MusicaTurne, opt =>
                    {
                        opt.MapFrom(src =>
-                           src.musica.Titulo);
+                           src.Musica.Titulo);
                    });
             Mapper.CreateMap<Turne, TurneViewModel>();
         }

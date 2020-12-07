@@ -16,6 +16,7 @@ using Radio.Musicas.Web.ViewModel.Turne;
 
 namespace Radio.Musicas.Web.Controllers
 {
+    [Authorize]
     public class TurnesController : Controller
 
     {

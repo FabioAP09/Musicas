@@ -11,16 +11,20 @@ using Radio.Musicas.Dados.Entity.Context;
 using Radio.Musicas.Dominio;
 using Radio.Musicas.Repositorios.Comum;
 using Radio.Musicas.Repositorios.Entity;
+using Radio.Musicas.Web.Filtros;
 using Radio.Musicas.Web.ViewModel.Musica;
 
 namespace Radio.Musicas.Web.Controllers
 {
+    [LogActionFilter]
+    
     public class MusicasController : Controller
     {
         private IRepositorioGenerico<Musica, int>
             repositoriomusicas = new MusicasRepositorio(new MusicaDbContext());
 
         // GET: Musicas
+        
         public ActionResult Index()
         {
             return View(Mapper.Map<List<Musica>,List<MusicaIndexViewModel>>(repositoriomusicas.Selecionar()));

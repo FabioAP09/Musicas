@@ -12,7 +12,7 @@ namespace Radio.Musicas.Dados.Entity.TypeConfiguration
     {
         protected override void ConfiguararChaveEstrangeira()
         {
-            HasRequired(p => p.musica)
+            HasRequired(p => p.Musica)
                 .WithMany(p => p.Turnes)
                 .HasForeignKey(fk => fk.IdMusica);
         }

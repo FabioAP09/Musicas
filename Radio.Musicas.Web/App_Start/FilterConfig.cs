@@ -1,4 +1,5 @@
-﻿using System.Web;
+﻿using Radio.Musicas.Web.Filtros;
+using System.Web;
 using System.Web.Mvc;
 
 namespace Radio.Musicas.Web
@@ -8,6 +9,7 @@ namespace Radio.Musicas.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new LogActionFilter());
         }
     }
 }
